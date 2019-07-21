@@ -138,15 +138,6 @@ endmacro()
 
 # build
 set(mavgen -m pymavlink.tools.mavgen)
-set(v0.9Definitions
-    ardupilotmega.xml
-    common.xml
-    minimal.xml
-    slugs.xml
-    test.xml
-    ualberta.xml
-    )
-generateMavlink("0.9" "${v0.9Definitions}")
 set(v1.0Definitions
     ASLUAV.xml
     ardupilotmega.xml
