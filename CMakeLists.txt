@@ -117,8 +117,8 @@ endif()
 #check_library_exists(pthread  attachNode "" HAVE_PTHREAD)
 
 # config files
-configure_file(config.h.in config.h)
-install(FILES ${CMAKE_BINARY_DIR}/config.h DESTINATION include/${PROJECT_NAME} COMPONENT Dev)
+#configure_file(config.h.in config.h)
+#install(FILES ${CMAKE_BINARY_DIR}/config.h DESTINATION include/${PROJECT_NAME} COMPONENT Dev)
 
 # mavlink generation
 macro(generateMavlink version definitions)
